@@ -1,3 +1,4 @@
+# syntax docker/dockerfile:1.2
 FROM nginx:latest
 # COPY ./site-content/index.html /usr/share/nginx/html/index.html
 # COPY ./etc/nginx.conf /etc/nginx/
