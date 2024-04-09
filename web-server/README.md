@@ -32,7 +32,7 @@ PS C:\Users\sjfke> $name = "crazy-frog"
 PS C:\Users\sjfke> $image = "localhost/nginx-test"
 
 # build image
-PS C:\Users\sjfke> docker build --tag $image -f .\Dockerfile $PWD
+PS C:\Users\sjfke> docker build --tag $image --no-cache -f .\Dockerfile $PWD
 PS C:\Users\sjfke> docker image ls $image
 
 # run, test, delete container
