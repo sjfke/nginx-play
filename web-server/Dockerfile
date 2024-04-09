@@ -4,4 +4,6 @@ FROM nginx:latest
 # remove default.conf
 # RUN rm -f /etc/nginx/conf.d/default.conf
 COPY ./etc/static.conf /etc/nginx/conf.d/default.conf
-COPY ./site-content/* /usr/share/nginx/html/
+COPY ./site-content/html/* /usr/share/nginx/web/
+COPY ./site-content/static/* /usr/share/nginx/web/static/
+COPY ./site-content/themes/* /usr/share/nginx/web/themes/
