@@ -2,6 +2,19 @@
 
 Build and deploy a static web-server using `docker`, `docker compose` and `podman`
 
+## References
+
+* [Deploying NGINX and NGINX Plus on Docker](https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-docker/)
+* [Setting Up Nginx with Self-Signed HTTPS in Docker Compose](https://ecostack.dev/posts/nginx-self-signed-https-docker-compose/)
+* [The Powerhouse Guide to the Nginx Include Directive](https://thelinuxcode.com/nginx-include/)
+* [docker compose](https://docs.docker.com/reference/cli/docker/compose/)
+* [docker compose build](https://docs.docker.com/reference/cli/docker/compose/build/) - Build or rebuild services
+* [How to Use Docker Cp to Copy Files Between Host and Containers](https://www.howtogeek.com/devops/how-to-use-docker-cp-to-copy-files-between-host-and-containers/)
+* [podman build](https://docs.podman.io/en/latest/markdown/podman-build.1.html)
+* [podman play kube](https://docs.podman.io/en/latest/markdown/podman-kube-play.1.html)
+* [How to use NGINX Variables + Reference List](https://statuslist.app/nginx/variables/)
+* [Regular Expression Cheat Sheet - PCRE](https://github.com/niklongstone/regular-expression-cheat-sheet)
+
 ## Docker
 
 ```shell
@@ -121,14 +134,3 @@ drwxr-xr-x 1 root root 4096 Apr 10 02:54 ..
 lrwxrwxrwx 1 root root   11 Apr 10 02:54 access.log -> /dev/stdout
 lrwxrwxrwx 1 root root   11 Apr 10 02:54 error.log -> /dev/stderr
 ```
-
-## References
-
-* [Deploying NGINX and NGINX Plus on Docker](https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-docker/)
-* [Setting Up Nginx with Self-Signed HTTPS in Docker Compose](https://ecostack.dev/posts/nginx-self-signed-https-docker-compose/)
-* [The Powerhouse Guide to the Nginx Include Directive](https://thelinuxcode.com/nginx-include/)
-* [docker compose](https://docs.docker.com/reference/cli/docker/compose/)
-* [docker compose build](https://docs.docker.com/reference/cli/docker/compose/build/) - Build or rebuild services
-* [How to Use Docker Cp to Copy Files Between Host and Containers](https://www.howtogeek.com/devops/how-to-use-docker-cp-to-copy-files-between-host-and-containers/)
-* [podman build](https://docs.podman.io/en/latest/markdown/podman-build.1.html)
-* [podman play kube](https://docs.podman.io/en/latest/markdown/podman-kube-play.1.html)
