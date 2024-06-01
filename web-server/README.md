@@ -14,6 +14,8 @@ Build and deploy a static web-server using `docker`, `docker compose` and `podma
 * [podman play kube](https://docs.podman.io/en/latest/markdown/podman-kube-play.1.html)
 * [How to use NGINX Variables + Reference List](https://statuslist.app/nginx/variables/)
 * [Regular Expression Cheat Sheet - PCRE](https://github.com/niklongstone/regular-expression-cheat-sheet)
+* [Convert IPv4 to IPv6](https://dnschecker.org/ipv4-to-ipv6.php)
+* [RFC-1918](https://www.rfc-editor.org/rfc/rfc1918)
 
 ## Docker
 
